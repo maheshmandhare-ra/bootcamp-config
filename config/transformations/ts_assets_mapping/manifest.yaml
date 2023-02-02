@@ -54,3 +54,4 @@ authentication:
     scopes:
         - https://westeurope-1.cognitedata.com/.default
 
+
