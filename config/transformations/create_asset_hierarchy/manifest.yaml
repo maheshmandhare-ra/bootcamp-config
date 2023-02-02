@@ -48,10 +48,10 @@ dataSetExternalId: src:001:sap:ds
 #   audience: ${AUDIENCE}
 
 authentication:
-    clientId: d84f98b5-8f65-4ae4-a941-ef71e5a8e2cc
-    clientSecret: C5.8Q~kkJM.Gj6OlAY.ghs0q5TeMFgGQEa5z2bnu
+    clientId: ${COGNITE_CLIENT_ID}
+    clientSecret: ${COGNITE_CLIENT_SECRET}
     tokenUrl: https://login.microsoftonline.com/16e3985b-ebe8-4e24-9da4-933e21a9fc81/oauth2/v2.0/token
   # Optional: If idP requires providing the scopes
-    cdfProjectName: cdf-bootcamp-23-test
+    cdfProjectName: ${CDF_PROJECT_NAME}
     scopes:
         - https://westeurope-1.cognitedata.com/.default
