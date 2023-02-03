@@ -45,7 +45,7 @@ rawdbs:
                       - name: Mahesh Mandhare
                         email: mahesh.mandhare@rockwellautomation.com
                         role: Bootcamp 23 Administrator
-                        send-notification: true
+                        send-notification: false
     - rawdb-name: src:002:opcua:db
       dataset-external-id: src:002:opcua:ds
       short-name: opcua
@@ -58,4 +58,4 @@ rawdbs:
                       - name: Mahesh Mandhare
                         email: mahesh.mandhare@rockwellautomation.com
                         role: Bootcamp 23 Administrator
-                        send-notification: true
+                        send-notification: false
